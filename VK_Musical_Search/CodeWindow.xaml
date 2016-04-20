@@ -1,0 +1,15 @@
+﻿<Window x:Class="VK_Musical_Search.CodeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VK_Musical_Search"
+        mc:Ignorable="d"
+        Title="Введите код" Height="111" Width="234" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Код из SMS:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Code_textBox" HorizontalAlignment="Left" Height="23" Margin="91,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Button x:Name="Confirm_button" Content="Подтвердить" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="201" Click="Confirm_button_Click" IsDefault="True"/>
+
+    </Grid>
+</Window>
